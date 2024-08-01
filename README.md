@@ -1,6 +1,5 @@
 # Go library for client side interactions with rpm-ostree
 
-This is currently just a wrapper for invoking the CLI.  A bit more information
-in https://github.com/coreos/rpm-ostree/issues/2389
+Autogen-ed bootc [https://github.com/containers/bootc] go bingings 
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/coreos/rpmostree-client-go.svg)](https://pkg.go.dev/github.com/coreos/rpmostree-client-go)
+RUN go-jsonschema -p client schema.json -o client.go
